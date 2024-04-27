@@ -1,0 +1,104 @@
+.hero-background {
+    background-image: url('WechatIMG36.jpg'); /* Update with the correct image path */
+    background-size: cover;
+    background-position: center center;
+    height: 50vh; /* Adjust the height as needed */
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    text-align: center;
+    padding: 0.3em;
+    background-color: #b0e0e6;
+    color: #fff;
+    font-size: 0.9em;
+}
+footer {
+    text-align: center;
+    padding: 0.5em; /* Reduced padding */
+    background-color: #b0e0e6;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; /* Center footer content horizontally */
+    align-items: center; /* Align footer content vertically */
+    flex-wrap: wrap; /* Allows the content to wrap onto the next line on small screens */
+    gap: 10px; /* Adds space between contact details */
+}
+
+footer span {
+    white-space: nowrap; /* Keeps each piece of contact info on one line */
+}
+
+footer a {
+    color: #fff; /* Set the color of links to white or any color that matches your design */
+    text-decoration: none; /* Optional: removes underline from links */
+    margin: 0 5px; /* Optional: adds horizontal margin for better spacing */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+}
+
+main {
+    margin-top: 20px;
+}
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.education {
+    /* Add any additional styles you need for the education section */
+}
+
+.education-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Space between university and high school entries */
+}
+
+.school-logo {
+    width: 100px; /* Adjust as necessary */
+    height: auto;
+    margin-right: 40px; /* Space between the logo and the text */
+}
+
+.education-text h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em; /* Adjust as necessary */
+}
+
+.education-text p {
+    margin: 0;
+    padding: 0;
+    font-size: 1em; /* Adjust as necessary */
+}
+
+.school-website {
+    color: #0645AD; /* Typical color for hyperlinks */
+    text-decoration: none; /* Optional: removes underline */
+    font-size: 0.9em; /* Adjust as necessary */
+    margin-top: 5px; /* Space from the school name */
+}
+
+.school-website:hover {
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+}

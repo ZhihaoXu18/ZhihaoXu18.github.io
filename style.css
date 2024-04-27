@@ -1,5 +1,5 @@
 .hero-background {
-    background-image: url('WechatIMG36.jpg'); /* Update with the correct image path */
+    background-image: url('Asset/WechatIMG36.jpg'); /* Update with the correct image path */
     background-size: cover;
     background-position: center center;
     height: 50vh; /* Adjust the height as needed */

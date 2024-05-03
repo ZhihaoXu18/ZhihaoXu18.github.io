@@ -112,14 +112,15 @@ body {
 }
 
 #key-features {
-    text-align: left; /* Aligns bullet points to the left */
-    max-width: 600px; /* Restricts maximum width of the list */
-    margin: 0 auto; /* Centers the list in the middle of the page */
-    padding: 20px; /* Adds padding around the list */
+    text-align: left;
+    max-width: 800px; /* Slightly wider to adjust list closer to the left */
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 #key-features li {
     line-height: 1.6; /* Increases line spacing for readability */
     font-size: 1.1em; /* Slightly larger font size for visibility */
+     padding-left: 10px;
 }
 

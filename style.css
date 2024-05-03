@@ -106,21 +106,7 @@ h1, h2, h3 {
 body {
     font-family: Arial, sans-serif;
 }
-
-#project-description {
-    text-align: center; /* Centers text for the entire section */
-}
-
-#key-features {
-    text-align: left;
-    max-width: 800px; /* Slightly wider to adjust list closer to the left */
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
-#key-features li {
-    line-height: 1.6; /* Increases line spacing for readability */
-    font-size: 1.1em; /* Slightly larger font size for visibility */
-     padding-left: 10px;
+.project-title {
+    font-size: 24px; /* Larger font size for project titles */
 }
 

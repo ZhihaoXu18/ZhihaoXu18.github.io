@@ -82,6 +82,19 @@ section:hover {
     margin-right: 20px;
 }
 
+/* Relevant Courses Section */
+.relevant-courses {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    color: #333;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 500;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Animated Footer */
 footer {
     text-align: center;

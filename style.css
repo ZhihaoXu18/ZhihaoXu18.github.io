@@ -11,7 +11,55 @@ body {
     margin: 40px;
     background-color: #f4f4f9;
     color: #333;
+    font-size: 16px;
 }
+
+/* Responsive Text Sizes */
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+    h3 {
+        font-size: 1.1rem;
+    }
+}
+
 header {
     text-align: center;
     padding: 0.3em;
@@ -19,6 +67,7 @@ header {
     color: #fff;
     font-size: 0.9em;
 }
+
 footer {
     text-align: center;
     padding: 0.5em; /* Reduced padding */
@@ -39,18 +88,19 @@ footer span {
 }
 
 footer a {
-    color: #fff; /* Set the color of links to white or any color that matches your design */
-    text-decoration: none; /* Optional: removes underline from links */
-    margin: 0 5px; /* Optional: adds horizontal margin for better spacing */
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Adds underline on hover for visual feedback */
+    text-decoration: underline;
 }
 
 main {
     margin-top: 20px;
 }
+
 section {
     margin-bottom: 20px;
     padding: 20px;
@@ -58,10 +108,10 @@ section {
     border: 1px solid #ccc;
     border-radius: 8px;
 }
+
 h1, h2, h3 {
     text-align: center;
     color: #333;
-    font-size: 1.5em;
 }
 
 .education {
@@ -71,45 +121,42 @@ h1, h2, h3 {
 .education-entry {
     display: flex;
     align-items: center;
-    margin-bottom: 20px; /* Space between university and high school entries */
+    margin-bottom: 20px;
 }
 
 .school-logo {
-    width: 100px; /* Adjust as necessary */
+    width: 100px;
     height: auto;
-    margin-right: 40px; /* Space between the logo and the text */
+    margin-right: 40px;
 }
 
 .education-text h2 {
     margin: 0;
     padding: 0;
-    font-size: 1.2em; /* Adjust as necessary */
+    font-size: 1.2em;
 }
 
 .education-text p {
     margin: 0;
     padding: 0;
-    font-size: 1em; /* Adjust as necessary */
+    font-size: 1em;
 }
 
 .school-website {
-    color: #0645AD; /* Typical color for hyperlinks */
-    text-decoration: none; /* Optional: removes underline */
-    font-size: 0.9em; /* Adjust as necessary */
-    margin-top: 5px; /* Space from the school name */
+    color: #0645AD;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 5px;
 }
 
 .school-website:hover {
-    text-decoration: underline; /* Adds underline on hover for visual feedback */
+    text-decoration: underline;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
 .project-title {
-    font-size: 24px; /* Larger font size for project titles */
+    font-size: 24px;
 }
 
 .project p {
-    text-align: center; /* Center-aligns the text inside the paragraph */
+    text-align: center;
 }

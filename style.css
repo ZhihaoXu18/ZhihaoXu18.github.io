@@ -25,13 +25,13 @@ body {
     transition: background-color 0.5s ease-in-out;
 }
 
-/* Animated Header */
+/* Adjusted Header Styling */
 header {
     text-align: center;
-    padding: 1.5em;
-    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Changed to blue gradient */
+    padding: 1em;
+    background: linear-gradient(135deg, #4a90e2, #72b2f6); /* Lightened blue gradient */
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em; /* Reduced size */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
@@ -42,7 +42,7 @@ header:hover {
 
 /* Fancy Buttons */
 button, .btn {
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #4a90e2, #72b2f6);
     border: none;
     color: white;
     padding: 12px 25px;
@@ -54,7 +54,7 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    background: linear-gradient(135deg, #72b2f6, #4a90e2);
     transform: scale(1.08);
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.3);
 }
@@ -75,9 +75,9 @@ section:hover {
     box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Adjust Waterloo Image Size */
+/* Adjust School Logo Size */
 .school-logo {
-    width: 40px; /* Reduced size */
+    width: 100px; /* Slightly increased size */
     height: auto;
     margin-right: 20px;
 }
@@ -87,7 +87,7 @@ section:hover {
     text-align: center;
     margin: 20px 0;
     padding: 15px;
-    background: #f8f9fa;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2); /* Lightened blue gradient */
     color: #333;
     border-radius: 8px;
     font-size: 1.1em;
@@ -99,7 +99,7 @@ section:hover {
 footer {
     text-align: center;
     padding: 1em;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #4a90e2, #72b2f6); /* Lightened blue */
     color: white;
     margin-top: 30px;
     transition: transform 0.3s ease-in-out;
@@ -130,7 +130,7 @@ footer a:hover {
 /* Project Card Hover Effects */
 .project {
     transition: all 0.3s ease-in-out;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #4a90e2, #72b2f6);
     padding: 20px;
     border-radius: 12px;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);

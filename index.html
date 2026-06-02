@@ -3,101 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David | Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Ensure 'style.css' is correctly linked -->
+    <meta name="description" content="David Zhihao Xu portfolio: mathematics student focused on data analytics, finance, pricing optimization, and business intelligence.">
+    <title>David Zhihao Xu | Data & Finance Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hero-background"></div>
-    
-    <header>
-        <h1>Welcome to My Portfolio</h1>
+    <header class="site-header">
+        <a class="brand" href="#top">David Zhihao Xu</a>
+        <nav aria-label="Primary navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#interests">Interests</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-    
-    <main>
-        <section>
-            <h2>David (Zhihao) Xu</h2>
-            <p>
-                Hi, I’m David Xu, a finance and data-driven problem solver studying Mathematics at the University of Waterloo. 
-                I specialize in financial analysis, data processing, and market research, with experience as an Investment 
-                Research Analyst at Global Alpha Capital Management and as a co-founder of a Personal Finance Platform. 
-            </p>
-            <p>
-                Beyond work, I enjoy playing basketball and hiking, embracing challenges both on the court and on the trails. 
-                I’m always looking for innovative ways to combine finance, technology, and strategy. Feel free to connect with me on LinkedIn!
-            </p>
-        </section>
-        
-        <section>
-            <h2>Skills</h2>
-            <ul class="list-group">
-                <li><strong>Languages:</strong> Python, C, CSS, HTML</li>
-                <li><strong>Skills:</strong> Matplotlib, NumPy</li>
-                <li><strong>Tools:</strong> Git, VSCode, LaTeX</li>
-                <li><strong>Soft Skills:</strong> Problem Solving, Effective Communication, Interpersonal Skills</li>
-            </ul>
-        </section>
-        
-        <section class="education">
-            <h2>Education</h2>
-            <div class="education-entry">
-                <img src="Asset/Waterloomath.jpeg" alt="University of Waterloo Logo" class="school-logo">
-                <div class="education-text">
-                    <h3>University of Waterloo</h3>
-                    <p>Honours Mathematics</p>
-                    <a href="https://uwaterloo.ca" target="_blank" class="school-website">uwaterloo.ca</a>
-                </div>
-            </div>
-            <div class="education-entry">
-                <img src="Asset/ruralhigh.png" alt="High School Logo" class="school-logo">
-                <div class="education-text">
-                    <h3>Charlottetown Rural High School</h3>
-                    <p>Student Council Vice President</p>
-                    <a href="https://therural.edu.pe.ca" target="_blank" class="school-website">therural.edu.pe.ca</a>
+
+    <main id="top">
+        <section class="hero" aria-labelledby="heroTitle">
+            <div class="hero-content">
+                <p class="eyebrow">Mathematics · Data Analytics · Finance</p>
+                <h1 id="heroTitle">David Zhihao Xu</h1>
+                <p class="hero-copy">
+                    University of Waterloo Statistics, Mathematics and Finance student building data-driven
+                    tools for pricing, operations, finance, and business decision support.
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="#projects">View Projects</a>
+                    <a class="button secondary" href="mailto:davidxu2728@gmail.com">Contact Me</a>
                 </div>
             </div>
         </section>
-        
-        <section class="relevant-courses">
-            <h2>Relevant Courses</h2>
-            <p>Probability and Statistics, Calculus, Linear Algebra, Micro and Macro Economics, Accounting and Financial Management, Financial Mathematics.</p>
+
+        <section class="overview" aria-label="Portfolio highlights">
+            <div class="metric">
+                <span>100K+</span>
+                <p>transaction records analyzed in pricing analytics MVP</p>
+            </div>
+            <div class="metric">
+                <span>Python</span>
+                <p>Pandas, NumPy, SciPy, statistical analysis, and automation</p>
+            </div>
+            <div class="metric">
+                <span>Finance</span>
+                <p>equity research, valuation analysis, and market research</p>
+            </div>
         </section>
-        
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3 class="project-title">Equity Research, Investment Pitch: High-Growth Sportswear & Accessories Market</h3>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">About</p>
+                <h2>Statistics and finance student focused on practical data systems.</h2>
+            </div>
+            <div class="about-grid">
                 <p>
-                    Conducted equity research on a leading sportswear company, analyzing five years of financial data and identifying 20%+ revenue growth trends in the industry.
+                    I study Statistics, Mathematics and Finance at the University of Waterloo and focus on
+                    turning messy business data into clean, decision-ready outputs. My experience spans data
+                    operations, hotel booking analytics, investment research, and Python-based analytics
+                    projects.
                 </p>
                 <p>
-                    Benchmarked against five major industry players, analyzing profit margins, valuation multiples, and strategic positioning, which provided clearer insights for comparative investment decisions.
-                </p>
-                <p>
-                    Developed a comprehensive investment pitch for the senior leadership team, incorporating SWOT analysis, investment thesis, and a Discounted Cash Flow (DCF) model with five-year financial projections.
+                    I am especially interested in data engineering, analytics engineering, and finance
+                    technology roles where data validation, SQL/Python workflows, statistical reasoning,
+                    and clear communication all matter.
                 </p>
             </div>
-            
-            <div class="project">
-                <h3 class="project-title">Co-founder of Personal Finance Project</h3>
-                <p>
-                    This website is designed to help users optimize their savings strategy and achieve their savings goals more effectively, based on individual income levels and regional economic conditions.
-                </p>
-                <ul>
-                    <li>Income and Savings Analysis</li>
-                    <li>Projected to help users reduce daily expenses by 15–20%</li>
-                </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">Selected Work</p>
+                <h2>Projects that connect data pipelines to business decisions.</h2>
+            </div>
+            <div class="project-grid">
+                <article class="project-card featured">
+                    <div class="project-meta">Python · Pandas · Regression · Chart.js</div>
+                    <h3>Pricing Analytics MVP</h3>
+                    <p>
+                        Built an end-to-end CSV analysis workflow that processes transaction data, generates
+                        business summaries, estimates pricing opportunities, simulates A/B tests, and renders
+                        a decision-ready dashboard.
+                    </p>
+                    <ul>
+                        <li>Processed 100K+ transaction records through a reusable analytics pipeline.</li>
+                        <li>Used log-log regression to estimate price elasticity by category and price tier.</li>
+                        <li>Generated JSON outputs for KPI cards, revenue trends, uplift charts, and recommendations.</li>
+                    </ul>
+                    <a href="https://github.com/ZhihaoXu18/hotel-mvp" target="_blank" rel="noreferrer">View repository</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-meta">Equity Research · Valuation · DCF</div>
+                    <h3>Sportswear Equity Research Pitch</h3>
+                    <p>
+                        Researched a high-growth sportswear and accessories company using financial statements,
+                        valuation multiples, industry benchmarking, and a five-year DCF model.
+                    </p>
+                    <ul>
+                        <li>Analyzed five years of revenue growth, margins, and strategic positioning.</li>
+                        <li>Benchmarked against five major competitors to support an investment thesis.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">Skills</p>
+                <h2>Technical foundation for analytics and data engineering work.</h2>
+            </div>
+            <div class="skill-grid">
+                <div class="skill-group">
+                    <h3>Programming</h3>
+                    <p>Python, R, JavaScript, C, HTML, CSS</p>
+                </div>
+                <div class="skill-group">
+                    <h3>Data & Statistics</h3>
+                    <p>Pandas, NumPy, Matplotlib, linear regression, experimental design, A/B testing, data validation</p>
+                </div>
+                <div class="skill-group">
+                    <h3>Tools</h3>
+                    <p>SQL, MySQL, PostgreSQL, Excel, Power BI, Git, GitHub, VS Code, PyCharm</p>
+                </div>
+                <div class="skill-group">
+                    <h3>Machine Learning & AI</h3>
+                    <p>Supervised learning, unsupervised learning, PCA, generative AI tools, model interpretation</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section education">
+            <div class="section-heading">
+                <p class="eyebrow">Education</p>
+                <h2>Mathematics background with finance and analytics coursework.</h2>
+            </div>
+            <div class="education-grid">
+                <article class="education-entry">
+                    <img src="Asset/Waterloomath.jpeg" alt="University of Waterloo Mathematics logo">
+                    <div>
+                        <h3>University of Waterloo</h3>
+                        <p>Bachelor of Statistics, Mathematics and Finance</p>
+                        <p class="muted">Relevant coursework: Linear Regression, Experimental Design, Algorithms and Data Structures, Statistical Data Analysis, Numerical Methods.</p>
+                    </div>
+                </article>
+                <article class="education-entry">
+                    <img src="Asset/ruralhigh.png" alt="Charlottetown Rural High School logo">
+                    <div>
+                        <h3>Charlottetown Rural High School</h3>
+                        <p>Student Council Vice President</p>
+                        <ul class="muted">
+                            <li>Democratically elected to represent a student body of 300+.</li>
+                            <li>Organized the first post-pandemic Winter Formal and a successful Grad Breakfast as Vice President.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="interests" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">Outside the Classroom</p>
+                <h2>Personal habits that keep me curious and balanced.</h2>
+            </div>
+            <div class="interest-grid">
+                <article class="interest-card">
+                    <img src="Asset/basketball.jpg" alt="David playing basketball in a school gym">
+                    <div class="interest-content">
+                        <div class="interest-label">Basketball</div>
+                        <h3>Three years of team competition</h3>
+                        <ul>
+                            <li>2021 Provincial Champion</li>
+                            <li>2023 Provincial Champion</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="interest-card">
+                    <img src="Asset/travel-city.jpg" alt="David traveling in a city">
+                    <div class="interest-content">
+                        <div class="interest-label">Travel</div>
+                        <h3>Learning through new places</h3>
+                        <p>
+                            Traveling keeps me open-minded. I enjoy seeing how different cities, cultures, and
+                            routines shape the way people solve problems and make decisions.
+                        </p>
+                        <a class="text-link" href="travel.html">View travel gallery</a>
+                    </div>
+                </article>
             </div>
         </section>
     </main>
-    
-    <footer>
-        <div class="footer-content">
-            <span>Email: <a href="mailto:davidxu2728@gmail.com">davidxu2728@gmail.com</a></span>
-            <span>LinkedIn: <a href="https://www.linkedin.com/in/david-xu-576721300/" target="_blank">David Xu</a></span>
-            <span>GitHub: <a href="https://github.com/ZhihaoXu18" target="_blank">david-xu</a></span>
+
+    <footer id="contact">
+        <div>
+            <h2>Let’s connect.</h2>
+            <p>I’m open to data, analytics, finance, and software-adjacent internship opportunities.</p>
+        </div>
+        <div class="contact-links">
+            <a href="mailto:davidxu2728@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/david-xu-576721300/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/ZhihaoXu18" target="_blank" rel="noreferrer">GitHub</a>
         </div>
     </footer>
-    
-    <script src="script.js"></script> <!-- Ensure 'script.js' is correctly linked -->
+
+    <script src="script.js"></script>
 </body>
 </html>

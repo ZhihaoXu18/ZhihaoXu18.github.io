@@ -1,2 +1,9 @@
+const footer = document.querySelector("footer");
 
-document.write("© 2024 by David Xu. All rights reserved.");
+if (footer) {
+    const year = new Date().getFullYear();
+    const copyright = document.createElement("p");
+    copyright.className = "muted";
+    copyright.textContent = `© ${year} David Zhihao Xu. All rights reserved.`;
+    footer.appendChild(copyright);
+}

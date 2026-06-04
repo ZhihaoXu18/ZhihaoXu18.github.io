@@ -518,6 +518,36 @@ footer p {
         grid-template-columns: 1fr;
     }
 
+    .interest-card {
+        grid-template-rows: 220px auto;
+    }
+
+    .interest-content {
+        padding: 18px;
+    }
+
+    .interest-label {
+        margin-bottom: 12px;
+        font-size: 0.72rem;
+        padding: 6px 10px;
+    }
+
+    .interest-card h3 {
+        font-size: 1.12rem;
+        line-height: 1.2;
+    }
+
+    .interest-card p,
+    .interest-card ul {
+        color: #344054;
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    .text-link {
+        margin-top: 14px;
+    }
+
     .travel-gallery {
         grid-template-columns: 1fr;
     }

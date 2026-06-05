@@ -75,9 +75,12 @@ nav a:hover,
     min-height: 82vh;
     display: flex;
     align-items: flex-end;
-    background:
-        linear-gradient(90deg, rgba(7, 12, 24, 0.86), rgba(7, 12, 24, 0.56), rgba(7, 12, 24, 0.2)),
-        url("Asset/WechatIMG36.jpg") center / cover;
+    background-image:
+        linear-gradient(90deg, rgba(7, 12, 24, 0.88), rgba(7, 12, 24, 0.58), rgba(7, 12, 24, 0.2)),
+        url("Asset/hero-background.jpg");
+    background-position: center, left 48%;
+    background-repeat: no-repeat;
+    background-size: cover, 128% auto;
     color: #ffffff;
     padding: 96px 6vw 72px;
 }
@@ -502,6 +505,8 @@ footer p {
 
     .hero {
         min-height: 74vh;
+        background-position: center, -35% center;
+        background-size: cover, cover;
         padding: 72px 20px 48px;
     }
 

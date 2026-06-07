@@ -79,9 +79,9 @@ nav a:hover,
     background-image:
         linear-gradient(90deg, rgba(7, 12, 24, 0.96) 0%, rgba(7, 12, 24, 0.86) 44%, rgba(7, 12, 24, 0.42) 70%, rgba(7, 12, 24, 0.08) 100%),
         url("Asset/hero-background.jpg");
-    background-position: center, right center;
+    background-position: center, center center;
     background-repeat: no-repeat;
-    background-size: cover, contain;
+    background-size: cover, cover;
     color: #ffffff;
     padding: 96px 6vw 72px;
 }
@@ -506,13 +506,13 @@ footer p {
     }
 
     .hero {
-        min-height: 82vh;
+        min-height: 74vh;
         background-image:
-            linear-gradient(180deg, rgba(7, 12, 24, 0.96) 0%, rgba(7, 12, 24, 0.9) 45%, rgba(7, 12, 24, 0.48) 100%),
+            linear-gradient(180deg, rgba(7, 12, 24, 0.94) 0%, rgba(7, 12, 24, 0.82) 42%, rgba(7, 12, 24, 0.44) 100%),
             url("Asset/hero-background.jpg");
-        background-position: center, center bottom;
-        background-size: cover, contain;
-        padding: 56px 20px 48px;
+        background-position: center, center center;
+        background-size: cover, cover;
+        padding: 72px 20px 48px;
     }
 
     .overview,

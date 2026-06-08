@@ -365,13 +365,13 @@ footer {
 
 .interest-card p {
     margin: 0;
-    color: var(--muted);
+    color: #1f2937;
 }
 
 .interest-card ul {
     margin: 0;
     padding-left: 18px;
-    color: var(--muted);
+    color: #1f2937;
 }
 
 footer {
@@ -543,13 +543,14 @@ footer p {
     }
 
     .interest-card h3 {
+        color: #111827;
         font-size: 1.12rem;
         line-height: 1.2;
     }
 
     .interest-card p,
     .interest-card ul {
-        color: #344054;
+        color: #1f2937;
         font-size: 0.95rem;
         line-height: 1.5;
     }
